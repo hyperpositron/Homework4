@@ -4,7 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
-        //task5();
+        task5();
         //task6();
         //task7();
     }
@@ -58,7 +58,21 @@ public class Main {
             System.out.println("Если человеку " + agePeople + " лет, то ему пора ходить на работу.");
     }
     public static void task5() {
-
+        //Задача 5
+        System.out.println("Задача №5");
+        int ageChildren = 7;
+        boolean parent = true;
+        if (ageChildren < 5){
+            System.out.println("Если возраст ребенка равен " + ageChildren + ", то ему нельзя кататься на аттракционе.");
+        }
+        if (parent == true && ageChildren >=5 && ageChildren < 14){
+            System.out.println("Если возраст ребенка равен " + ageChildren + ", то ему можно кататься на аттракционе в сопровождении взрослого.");
+        } else {
+            System.out.println("Нельзя кататься на аттракционе без сопровождения взрослого");
+        }
+        if (ageChildren >= 14){
+            System.out.println("Если возраст ребенка равен " + ageChildren + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
+        }
     }
 
 }
